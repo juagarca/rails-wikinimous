@@ -12,7 +12,7 @@
 
   <body>
     <div class="nav border">
-      <h1>Wikinimous</h1>
+      <h1><%= link_to 'Wikinimous', articles_path %></h1>
       <p><%= link_to 'New article', new_article_path %></p>
     </div>
     <%= yield %>
